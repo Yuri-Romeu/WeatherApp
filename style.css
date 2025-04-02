@@ -1,0 +1,36 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     background-color: rgb(202, 245, 231);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+     height: 600px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap: 15px;
+}
+
+.container #search {
+     width: 400px;
+     height: 30px;
+     border-radius: 10px;
+     padding: 10px;
+     border: 1px solid rgb(136, 133, 133);
+}
+
+.container #submit {
+     padding: 10px;
+     width: 110px;
+     height: 40px;
+     cursor: pointer;
+     border: 1px solid rgb(136, 133, 133);
+     border-radius: 10px;
+}
